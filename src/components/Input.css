@@ -1,0 +1,58 @@
+
+.inputTextGroup {
+    display :flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.inputTextGroup label {
+    font-size: 85%;
+}
+
+.inputTextGroup .err {
+    color: red;
+    height: 1em;
+}
+
+.inputChanged {
+    background-color: lightblue;
+}
+
+.inputInvalid {
+    background-color: lightcoral;
+}
+
+/* ============================================ */
+
+.tooltipBase {
+    position: relative;
+  }
+  
+  /* Tooltip text */
+  .tooltipBase > .tooltipPopup {
+    visibility: hidden;
+    background-color: yellow;
+    text-align: center;
+    padding: 0.3em 0.1em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+   
+    position: absolute;
+    top: 2.5em;
+    left: 0.25em;
+    z-index: 1;
+    font-size: 85%;
+    font-weight: bold;
+    color:red;
+  }
+  
+  .tooltipBase:hover > .tooltipPopup {
+    visibility: visible;
+  }
+
+  
+

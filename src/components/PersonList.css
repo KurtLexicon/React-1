@@ -1,0 +1,38 @@
+/*
+.cell-text {
+    text-align: left;
+    padding: 0;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.cell-number {
+    text-align: right;
+    padding: 0;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+*/
+
+.personList {
+    text-align: left;
+}
+
+.headerRow {
+    font: size 110%;
+    font-weight: bold;
+    background-color: yellow;
+
+}
+
+.clickableRow {
+    cursor: pointer;
+}
+
+.clickableRow:hover {
+    color: green;
+}
+
+.personList {
+    font-size: 12px;
+}
